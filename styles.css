@@ -1,0 +1,53 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+h2 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+.section {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.edu-item, .certification-item, .activity-item, .achievement-item, .job-item, .lang-item, .volunteer-item {
+    margin-bottom: 15px;
+}
+
+/* Add some color variations for different sections */
+.edu-item, .certification-item, .activity-item, .achievement-item, .volunteer-item {
+    background-color: #e8f4ff;
+}
+
+.job-item, .lang-item {
+    background-color: #faffd7;
+}
+
+/* Style for links */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+    .section {
+        padding: 10px;
+    }
+}
