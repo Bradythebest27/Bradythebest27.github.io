@@ -286,3 +286,47 @@ footer {
 .slide-up {
     animation: slideUp 1s ease-in-out;
 }
+
+
+/* Skills Section */
+.skills-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.language-container {
+    position: relative;
+    width: 500px;
+    height: 500px;
+}
+
+.language-icon {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.java {
+    background-color: #e76f00;
+}
+
+.cpp {
+    background-color: #6c3483;
+}
+
+.c {
+    background-color: #5c6bc0;
+}
+
+.python {
+    background-color: #ffd54f;
+    color: #000;
+}
