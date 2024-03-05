@@ -30,9 +30,9 @@ window.addEventListener('scroll', function() {
     });
 });
 
-// add scroll of languages
+// Revolving Language Icons
 window.onload = function() {
-    const container = document.querySelector('.container');
+    const container = document.querySelector('.language-container');
     const languageIcons = document.querySelectorAll('.language-icon');
     const containerWidth = container.offsetWidth;
     const containerHeight = container.offsetHeight;
